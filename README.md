@@ -1,5 +1,5 @@
 # My settings
 
 My setup for: 
--[kitty](https://github.com/kovidgoyal/kitty)_ 
--[alacritty](https://github.com/alacritty/alacritty)_
+* [kitty](https://github.com/kovidgoyal/kitty) 
+* [alacritty](https://github.com/alacritty/alacritty) 
