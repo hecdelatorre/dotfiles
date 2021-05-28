@@ -1,4 +1,4 @@
-# I have tested these instructions on artix
+# I have tested these instructions on [Artix Linux](https://artixlinux.org/)
 # Actualizar sistema
 ```
 sudo pacman -Syyu --noconfirm
