@@ -4,6 +4,7 @@ My setup for:
 * [alacritty](https://github.com/alacritty/alacritty) 
 * [Artix](https://artixlinux.org/)
 * [Fedora](https://getfedora.org/)
+* [vscode](https://code.visualstudio.com/)
 #
 My favorite fonts
 * [Menlo for Powerline](https://github.com/abertsch/Menlo-for-Powerline.git)
