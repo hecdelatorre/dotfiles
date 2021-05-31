@@ -30,3 +30,7 @@ makepkg -si
 ```
 git clone https://aur.archlinux.org/yay.git
 ```
+# Install Fonts
+```
+sudo pacman -S ttf-fira-code ttf-fira-mono ttf-fira-sans
+```
