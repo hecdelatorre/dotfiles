@@ -28,7 +28,7 @@ makepkg -si
 ```
 # Visual Studio through arch user repositories
 ```
-git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
 ```
 # Install Fonts
 ```
