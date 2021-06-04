@@ -21,6 +21,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-fugitive'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'terryma/vim-multiple-cursors'
@@ -30,6 +31,29 @@ call plug#end()
 " Theme
 colorscheme gruvbox	
 let g:gruvbox_contrast_dark = 'dark'
+
+let g:lightline = {
+\    'active': {
+\	'left': [['mode', 'paste'], [], ['relativepath', 'modified']],
+\	'right': [['filetype', 'percent', 'lineinfo'], ['gitbranch']]
+\    }, 
+\    'inactive' : {
+\	'left': [['inactive'], ['relativepath']],
+\	'right': [['bufnum']]
+\    },
+\    'component': {
+\	'bufnum': '%n',
+\	'inactive': 'inactive'
+\    },
+\    'component_function': {
+\	'gitbranch': 'fugitive#head'
+\    },
+\    'colorscheme': 'darcula',
+\    'subseparator': {
+\	'left': '',
+\	'right': ''
+\    }
+\}
 " NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
