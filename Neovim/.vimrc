@@ -21,6 +21,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'itchyny/lightline.vim'
+Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'tpope/vim-fugitive'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
@@ -48,12 +49,13 @@ let g:lightline = {
 \    'component_function': {
 \	'gitbranch': 'fugitive#head'
 \    },
-\    'colorscheme': 'darcula',
+\    'colorscheme': 'gruvbox',
 \    'subseparator': {
 \	'left': '',
 \	'right': ''
 \    }
 \}
+
 " NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
@@ -85,14 +87,15 @@ inoremap [ []<Esc>i
 inoremap < <><Esc>i
 inoremap ' ''<Esc>i
 inoremap " ""<Esc>i
+
 " Remap keys for gotos
 "nmap <silent> gd <Plug>(coc-definition)
 "nmap <silent> gy <Plug>(coc-type-definition)
 "nmap <silent> gi <Plug>(coc-implementation)
 "nmap <silent> gr <Plug>(coc-references)
 " Use <C-l> for trigger snippet expand.
-let g:multi_cursor_use_default_mapping=0
 
+let g:multi_cursor_use_default_mapping=0
 " Default mapping
 let g:multi_cursor_start_word_key      = '<C-n>'
 ""let g:multi_cursor_select_all_word_key = '<A-n>'
