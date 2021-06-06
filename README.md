@@ -5,7 +5,7 @@ My setup for:
 * [Artix](https://artixlinux.org/)
 * [Debian](https://www.debian.org/)
 * [Fedora](https://getfedora.org/)
-* [Neoviw](https://neovim.io/)
+* [Neovim](https://neovim.io/)
 * [vscode](https://code.visualstudio.com/)
 
 # My favorite fonts
