@@ -1,16 +1,23 @@
-set number
-set mouse=v
-set numberwidth=3
-set clipboard=unnamed
+"        _                    
+" __   _(_)_ __ ___  _ __ ___ 
+" \ \ / / | '_ ` _ \| '__/ __|
+"  \ V /| | | | | | | | | (__ 
+" (_)_/ |_|_| |_| |_|_|  \___|                         
+
 syntax enable
+set number
+set relativenumber
+set numberwidth=3
+set mouse=a
+set clipboard=unnamedplus
 set showcmd
 set ruler
-set encoding=utf-8
 set showmatch
-set sw=4
-set relativenumber
+set shiftwidth=4
+set tabstop=4
 set laststatus=2
 set noshowmode 	
+set encoding=utf-8
 
 call plug#begin('~/.vim/plugins')
 " Theme

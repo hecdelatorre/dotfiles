@@ -10,17 +10,4 @@ sudo dnf install kitty plank neofetch -y &&
 sudo dnf install fira-code-fonts mozilla-fira* adobe-source-code-pro-fonts cascadia-code-fonts numix* -y &&
 sudo dnf install mpv mpv-libs audacious deluge -y  &&
 sudo dnf install filezilla httpd mod_ssl mariadb-server mariadb php php-common php-mysqlnd php-xml php-json php-gd php-mbstring phpmyadmin java-11-openjdk java-11-openjdk-devel python3 git -y &&
-sudo dnf install neovim libreoffice libreoffice-langpack-es -y
-
-
-
-
-
-
-
-
-
-
-
-
- 	
+sudo dnf install neovim libreoffice libreoffice-langpack-es -y 	
