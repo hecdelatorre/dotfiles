@@ -1,9 +1,10 @@
-DIRECTORY=~/.config/nvim/
+DIRECTORY=~/.config/nvim
 VIMRC=~/.vimrc
 if [ -d $DIRECTORY ]
 then
     echo -e "Remove nvim content"
-    rm -vr $DIRECTORY/*
+    rm -vr $DIRECTORY
+    mkdir $DIRECTORY
     echo -e "\nCopying vimrc files"
     cp -vr init.vim plugins.vimrc shortcuts.vimrc theme.vimrc $DIRECTORY
 else
