@@ -25,14 +25,15 @@ nmap <Leader>nr :NERDTreeRefreshRoot<CR>
 nmap <leader>w :w<cr>
 nmap <leader>q :q<cr>
 nmap <leader><F4> :q!<cr>
-inoremap ( ()<Esc>i
-inoremap { {}<Esc>i
-inoremap {<CR> {<CR>}<Esc>O
-inoremap [ []<Esc>i
-"inoremap < <><Esc>i
-inoremap ' ''<Esc>i
-inoremap " ""<Esc>i
 
+" inoremap ( ()<Esc>i
+" inoremap { {}<Esc>i
+" inoremap {<CR> {<CR>}<Esc>O
+" inoremap [ []<Esc>i
+" inoremap < <><Esc>i
+" inoremap ' ''<Esc>i
+" inoremap " ""<Esc>i
+"
 " Multi cursor
 let g:multi_cursor_start_word_key      = '<C-n>'
 let g:multi_cursor_select_all_word_key = '<A-n>'

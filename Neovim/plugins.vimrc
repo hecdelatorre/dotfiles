@@ -10,6 +10,12 @@ let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 
+" Closetag
+let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
+
+" Disable espace errors 
+let g:python_highlight_space_errors = 0
+
 " Multi cursor
 let g:multi_cursor_use_default_mapping=0
 

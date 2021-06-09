@@ -1,6 +1,7 @@
 " Theme
 colorscheme gruvbox	
 let g:gruvbox_contrast_dark = 'dark'
+highlight Normal ctermbg=NONE
 
 let g:lightline = {
 \    'active': {
