@@ -5,10 +5,10 @@ then
 	rm -vr $DIRECTORY
 	mkdir $DIRECTORY
 	echo -e "Copying kitty.conf"
-	cp -v Themes/Gruvbox/kitty.conf $DIRECTORY
+	cp -v Themes/Kibble/kitty.conf $DIRECTORY
 else
 	echo -e "Creating kitty folder"
 	mkdir $DIRECTORY
 	echo -e "Copying kitty.conf"
-	cp -v Themes/Gruvbox/kitty.conf $DIRECTORY
+	cp -v Themes/Kibble/kitty.conf $DIRECTORY
 fi
