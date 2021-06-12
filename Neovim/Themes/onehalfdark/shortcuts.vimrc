@@ -27,7 +27,9 @@ nmap <leader>q :q<cr>
 nmap <leader><F4> :q!<cr>
 
 " Duplicate a line
-nmap <leader>d 0v$yo<Esc>pjddk$
+nmap <leader>d 0v$yo<Esc>pji<del><Esc>k$
+nmap <leader>c 0v$y$
+nmap <leader>p o<Esc>pji<del><Esc>k$
 
 " inoremap ( ()<Esc>i
 " inoremap { {}<Esc>i
