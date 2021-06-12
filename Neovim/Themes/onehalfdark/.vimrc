@@ -13,8 +13,8 @@ set clipboard=unnamedplus
 set showcmd
 set ruler
 set showmatch
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set laststatus=2
 set noshowmode 	
 set encoding=utf-8
