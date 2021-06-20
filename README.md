@@ -1,4 +1,7 @@
 # My settings
+[![Screenshot-at-2021-06-19-23-25-03.png](https://i.postimg.cc/kXh75TQx/Screenshot-at-2021-06-19-23-25-03.png)](https://postimg.cc/w7JCfcbv)
+
+[![Screenshot-at-2021-06-19-23-33-25.png](https://i.postimg.cc/N0BCvcKb/Screenshot-at-2021-06-19-23-33-25.png)](https://postimg.cc/5XKS8DqF)
 My setup for: 
 * [kitty](https://github.com/kovidgoyal/kitty) 
 * [alacritty](https://github.com/alacritty/alacritty) 
