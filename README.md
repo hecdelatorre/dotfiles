@@ -10,6 +10,7 @@
 * [Fedora](https://getfedora.org/)
 * [Neovim](https://neovim.io/)
 * [vscode](https://code.visualstudio.com/)
+* zsh
 
 ## My favorite fonts
 * [FiraCode](https://github.com/tonsky/FiraCode)
