@@ -30,6 +30,7 @@ nmap <leader><F4> :q!<cr>
 nmap <leader>d 0v$yo<Esc>pji<del><Esc>k$
 nmap <leader>c 0v$y$
 nmap <leader>p o<Esc>pji<del><Esc>k$
+nmap <leader>a ggvG$y 
 
 " inoremap ( ()<Esc>i
 " inoremap { {}<Esc>i
