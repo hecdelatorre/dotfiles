@@ -13,11 +13,13 @@ set clipboard=unnamedplus
 set showcmd
 set ruler
 set showmatch
-set shiftwidth=2
-set tabstop=2
 set laststatus=2
 set noshowmode 	
 set encoding=utf-8
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+filetype plugin indent on
 let g:polyglot_disabled = ['markdown']
 
 call plug#begin('~/.vim/plugins')
