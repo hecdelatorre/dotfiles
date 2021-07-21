@@ -54,6 +54,7 @@ let g:coc_global_extensions = [
 \    'coc-json',
 \    'coc-tabnine',
 \    'coc-tsserver',
+\    'coc-rome',
 \    'coc-vimlsp',
 \    'coc-xml'
 \]
