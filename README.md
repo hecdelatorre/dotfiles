@@ -11,6 +11,7 @@
 * [Fedora](https://getfedora.org/)
 * [Neovim](https://neovim.io/)
 * [vscode](https://code.visualstudio.com/)
+* [rofi](https://github.com/davatorium/rofi)
 * [zsh](https://ohmyz.sh/)
 
 ## My favorite fonts
