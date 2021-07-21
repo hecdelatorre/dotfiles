@@ -1,0 +1,8 @@
+[user]
+	name = Name
+	email = email@deminio.com
+[alias]
+	lg = log --oneline --decorate --all --graph
+	s = status -s -b
+[credential]
+	helper = cache --timeout=3600
