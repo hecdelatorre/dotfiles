@@ -18,7 +18,15 @@ Add the following lines
 ```
 # My essential apps
 ```
-sudo pacman -S base-devel git smplayer gnome-disk-utility python3 engrampa openvpn wget smbnetfs gvfs-smb ntp audacious unace p7zip unrar lzip lhasa arj sharutils lzop cabextract nomacs deluge-gtk evince --noconfirm
+sudo pacman -S base-devel git kitty zsh smplayer gnome-disk-utility openvpn wget smbnetfs gvfs-smb ntp audacious unace p7zip unrar lzip lhasa arj sharutils lzop cabextract deluge-gtk evince engrampa pulseaudio rofi --noconfirm
+```
+# Applications for development
+```
+sudo pacman -S python3 python-pip nodejs npm neovim   --noconfirm
+```
+# Install Fonts
+```
+sudo pacman -S ttf-fira-code ttf-fira-mono ttf-fira-sans
 ```
 # Install yay
 ```
@@ -29,8 +37,4 @@ makepkg -si
 # Visual Studio through arch user repositories
 ```
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
-```
-# Install Fonts
-```
-sudo pacman -S ttf-fira-code ttf-fira-mono ttf-fira-sans
 ```
