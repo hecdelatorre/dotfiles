@@ -31,10 +31,10 @@ sudo pacman -S ttf-fira-code ttf-fira-mono ttf-fira-sans
 # Install yay
 ```
 git clone https://aur.archlinux.org/yay.git &&
-cd yay &&
-makepkg -si
+cd yay && makepkg -si
 ```
 # Visual Studio through arch user repositories
 ```
-git clone https://aur.archlinux.org/visual-studio-code-bin.git
+git clone https://aur.archlinux.org/visual-studio-code-bin.git vscode &&
+cd vscode && makepkg -si
 ```
