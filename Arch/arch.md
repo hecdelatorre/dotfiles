@@ -18,11 +18,11 @@ Add the following lines
 ```
 # My essential apps
 ```sh
-sudo pacman -S base-devel git kitty zsh smplayer gnome-disk-utility openvpn wget smbnetfs gvfs-smb ntp audacious unace p7zip unrar lzip lhasa arj sharutils lzop cabextract deluge-gtk evince engrampa xclip pulseaudio rofi --noconfirm
+sudo pacman -S base-devel git kitty zsh smplayer gnome-disk-utility openvpn wget smbnetfs gvfs-smb ntp audacious unace p7zip unrar lzip lhasa arj sharutils lzop cabextract deluge-gtk evince engrampa xclip pulseaudio rofi zsh --noconfirm
 ```
 # Applications for development
 ```sh
-sudo pacman -S python3 python-pip nodejs npm neovim --noconfirm
+sudo pacman -S python3 python-pip tk nodejs npm neovim --noconfirm
 ```
 # Install Fonts
 ```sh
