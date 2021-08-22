@@ -37,9 +37,13 @@ sudo apt install transmission
 ```sh
 sudo apt install qbittorrent
 ```
+# Libreoffice
+```sh
+sudo apt install libreoffice-writer libreoffice-impress libreoffice-draw libreoffice-calc libreoffice-l10n-es libreoffice-gtk3
+```
 # My essential apps
 ```sh
-sudo apt install tree rar unace p7zip p7zip-full p7zip-rar unrar lzip lhasa arj sharutils mpack lzma lzop cabextract nmap zenmap florence brasero deluge gparted w3m filezilla aircrack-ng crunch cups-pdf gnome-disk-utility g++ gcc build-essential clang gcp python3 git openvpn
+sudo apt install tree unace p7zip p7zip-full lzip lhasa arj sharutils mpack lzma lzop cabextract nmap brasero deluge gparted w3m filezilla aircrack-ng crunch cups-pdf gnome-disk-utility g++ gcc build-essential clang gcp python3 git openvpn
 ```
 # Remove unnecessary packages
 ```sh
