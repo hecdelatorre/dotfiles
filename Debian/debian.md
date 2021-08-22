@@ -1,10 +1,17 @@
 # Actualizar sistema
 ```sh
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 ```
 # Terminals
 ```sh
+sudo apt install kitty
+```
+```sh
 sudo apt install tilix
+```
+# Font
+```sh
+sudo apt install fonts-firacode
 ```
 # Multimedia
 ```sh
