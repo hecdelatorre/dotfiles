@@ -37,7 +37,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'sheerun/vim-polyglot'
-"Plug 'yggdroot/indentline'
+Plug 'yggdroot/indentline'
 call plug#end()
 
 "Theme
