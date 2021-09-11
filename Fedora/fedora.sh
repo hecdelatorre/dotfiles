@@ -6,7 +6,7 @@ echo "Update"
 sudo dnf upgrade -y
 sudo dnf check-update
 echo "Install Apps"
-sudo dnf install chromium gnome-disk-utility gvfs-smb openvpn git unace p7zip unrar lzip arj sharutils lzop cabextract glances unrar -y
+sudo dnf install gnome-disk-utility gvfs-smb openvpn git unace p7zip unrar lzip arj sharutils lzop cabextract glances unrar -y
 sudo dnf install kitty neofetch neovim zsh rofi -y
 sudo dnf install fira-code-fonts mozilla-fira* adobe-source-code-pro-fonts cascadia-code-fonts numix* -y
 sudo dnf install mpv mpv-libs audacious deluge aria2 discord -y
