@@ -8,6 +8,9 @@ sudo dnf upgrade
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Hec98/dotfiles/main/Fedora/update.sh)"
 ```
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Hec98/dotfiles/main/Fedora/fedora.sh)"
+```
 # Add more repositories
 ```
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
