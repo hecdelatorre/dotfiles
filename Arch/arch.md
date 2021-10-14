@@ -1,7 +1,7 @@
 # I have tested these instructions on [Artix Linux](https://artixlinux.org/)
 # Actualizar sistema
 ```sh
-sudo pacman -Syyu --noconfirm
+sudo pacman -Syu --noconfirm
 ```
 # Install pamac to activate arch users repositories
 ```sh
