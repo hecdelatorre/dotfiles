@@ -38,3 +38,7 @@ cd yay && makepkg -si
 git clone https://aur.archlinux.org/visual-studio-code-bin.git vscode &&
 cd vscode && makepkg -si
 ```
+# Installation script
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Hec98/dotfiles/main/Arch/arch.sh)"
+```
