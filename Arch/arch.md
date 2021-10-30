@@ -48,7 +48,7 @@ sudo pacman -S reflector
 ```
 ## Use
 ```
-sudo reflector --verbose --latest 10 --country Mexico --country "United States" --country Canada --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --verbose --latest 10 --country Mexico,"United States",Canada --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 ## Create service
 ```
@@ -59,7 +59,7 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/reflector --latest 10 --country Mexico --country "United States" --country Canada --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist 
+ExecStart=/usr/bin/reflector --latest 10 --country Mexico,"United States",Canada --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist 
 
 [Install]
 RequiredBy=multi-user.target' > reflector.service && sudo mv -vf reflector.service /etc/systemd/system
