@@ -26,8 +26,6 @@ sudo pacman -S python3 python-pip tk nodejs npm neovim --noconfirm
 # Install Fonts
 ```sh
 sudo pacman -S ttf-fira-code ttf-fira-mono ttf-fira-sans adobe-source-code-pro-fonts cantarell-fonts noto-fonts ttf-cascadia-code ttf-font-awesome ttf-ubuntu-font-family ttf-roboto --noconfirm
-
-
 ```
 # Install yay
 ```sh
