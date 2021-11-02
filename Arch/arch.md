@@ -38,13 +38,9 @@ cd yay && makepkg -si
 git clone https://aur.archlinux.org/visual-studio-code-bin.git vscode
 cd vscode && makepkg -si
 ```
-# Installation script
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Hec98/dotfiles/main/Arch/arch.sh)"
-```
 # Reflector
 ## Install
-```
+```sh
 sudo pacman -S reflector
 ```
 ## Use
@@ -52,7 +48,7 @@ sudo pacman -S reflector
 sudo reflector --verbose --latest 10 --country Mexico,"United States",Canada --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 ## Create service
-```
+```sh
 echo '[Unit]                                                           
 Description=Update the pacman mirror list
 Wants=network-online.target
@@ -67,4 +63,8 @@ RequiredBy=multi-user.target' > reflector.service && sudo mv -vf reflector.servi
 ```
 ```
 sudo systemctl enable reflector.service && sudo systemctl is-enabled reflector.service
+```
+# Installation script
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Hec98/dotfiles/main/Arch/arch.sh)"
 ```
