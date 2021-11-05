@@ -113,6 +113,24 @@ sudo dnf --releasever=32  install pangox-compat.x86_64
 ```
 sudo dnf install anydesk
 ```
+# Install mongodb
+## Add repository
+```sh
+echo '[mongodb-org-5.0]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/8Server/mongodb-org/5.0/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc' > mongodb-org-5.0.repo && sudo mv -vf mongodb-org-5.0.repo /etc/yum.repos.d/
+```
+## Install
+```
+sudo dnf install mongodb-org-server mongodb-org-shell mongodb-mongosh
+```
+## Start service
+```
+sudo systemctl start mongod.service && sudo systemctl is-active mongod.service
+```
 # Install most of the above software with one instruction
 ```
 sudo dnf install kitty neofetch gnome-disk-utility deluge filezilla libreoffice libreoffice-langpack-es gvfs-smb audacious openvpn python3 git unace p7zip unrar lzip arj sharutils lzop cabextract httpd mod_ssl mariadb-server mariadb php php-common php-mysqlnd php-xml php-json php-gd php-mbstring phpmyadmin neovim glances unrar java-11-openjdk java-11-openjdk-devel clang-devel mpv mpv-libs discord eclipse fira-code-fonts mozilla-fira* adobe-source-code-pro-fonts cascadia-code-fonts numix* 
