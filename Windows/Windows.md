@@ -6,3 +6,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```sh
 choco install firefox 7zip aria2 python3 sourcecodepro opensans firacode git audacious vscode dia nomacs foxitreader
 ```
+```sh
+choco install googlechrome winrar python3 sourcecodepro opensans firacode git vscode dia nomacs foxitreader
+```
