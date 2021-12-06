@@ -65,6 +65,6 @@ RequiredBy=multi-user.target' > reflector.service && sudo mv -vf reflector.servi
 sudo systemctl enable reflector.service && sudo systemctl is-enabled reflector.service
 ```
 # Installation script
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Hec98/dotfiles/main/Arch/arch.sh)"
+``` 
+sh -c "$(curl -fsSL https://gitlab.com/Hec98/dotfiles/-/raw/main/Arch/arch.sh)"
 ```
