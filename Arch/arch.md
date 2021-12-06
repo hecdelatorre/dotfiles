@@ -23,6 +23,10 @@ sudo pacman -S python3 python-pip tk nodejs npm neovim --noconfirm --needed
 ```sh
 sudo pacman -S ttf-fira-code ttf-fira-mono ttf-fira-sans adobe-source-code-pro-fonts cantarell-fonts noto-fonts ttf-cascadia-code ttf-font-awesome ttf-ubuntu-font-family ttf-roboto --noconfirm --needed
 ```
+# Install libreoffice
+```sh
+sudo pacman -S libreoffice-still libreoffice-still-es hunspell hunspell-es_mx hunspell-es_any hyphen hyphen-es mythes-es languagetool --noconfirm --needed
+```
 # Install yay
 ```sh
 sudo pacman -S base-devel git --noconfirm --needed
