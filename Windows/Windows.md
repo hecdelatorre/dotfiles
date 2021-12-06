@@ -9,3 +9,7 @@ choco install firefox 7zip aria2 python3 sourcecodepro opensans firacode git aud
 ```sh
 choco install googlechrome winrar python3 sourcecodepro opensans firacode git vscode dia nomacs foxitreader
 ```
+# Alacritty
+```sh
+%appdata% / alacritty / alacritty.yml
+```
