@@ -51,6 +51,19 @@ sudo pacman -S base-devel git --noconfirm --needed
 git clone https://aur.archlinux.org/visual-studio-code-bin.git vscode
 cd vscode && makepkg -si
 ```
+# Install linux zen
+```sh
+sudo pacman -S base-devel git --noconfirm --needed
+git clone https://aur.archlinux.org/update-grub.git
+cd update-grub && makepkg -si
+sudo pacman -S linux-zen linux-zen-headers --noconfirm --needed
+```
+```sh
+su
+```
+```sh
+update-grub
+```
 # Reflector
 ## Install
 ```sh
