@@ -39,7 +39,7 @@ sudo pacman -S base-devel git --noconfirm --needed
 git clone https://aur.archlinux.org/paru.git
 cd paru && makepkg -si
 ```
-# Install pamac to activate arch users repositories
+# Install pamac
 ```sh
 sudo pacman -S base-devel git --noconfirm --needed
 git clone https://aur.archlinux.org/pamac-aur.git pamac
