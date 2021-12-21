@@ -1,4 +1,4 @@
-# Actualizar sistema
+# Update system
 ```sh
 sudo pacman -Syu --noconfirm
 ```
