@@ -131,6 +131,10 @@ sudo dnf install mongodb-org-server mongodb-org-shell mongodb-mongosh
 ```
 sudo systemctl start mongod.service && sudo systemctl is-active mongod.service
 ```
+## Enable service
+```sh
+sudo systemctl enable mongod.service && sudo systemctl is-enabled mongod.service
+```
 # Install most of the above software with one instruction
 ```
 sudo dnf install kitty neofetch gnome-disk-utility deluge filezilla libreoffice libreoffice-langpack-es gvfs-smb audacious openvpn python3 git unace p7zip unrar lzip arj sharutils lzop cabextract httpd mod_ssl mariadb-server mariadb php php-common php-mysqlnd php-xml php-json php-gd php-mbstring phpmyadmin neovim glances unrar java-11-openjdk java-11-openjdk-devel clang-devel mpv mpv-libs discord eclipse fira-code-fonts mozilla-fira* adobe-source-code-pro-fonts cascadia-code-fonts numix* 
