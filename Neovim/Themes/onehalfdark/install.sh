@@ -1,3 +1,4 @@
+#!/bin/bash
 DIRECTORY=~/.config/nvim
 VIMRC=~/.vimrc
 if [ -d $DIRECTORY ]

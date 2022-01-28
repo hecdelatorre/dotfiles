@@ -1,3 +1,4 @@
+#!/bin/bash
 DIRECTORY=~/.config/kitty
 if [ -d $DIRECTORY ]
 then

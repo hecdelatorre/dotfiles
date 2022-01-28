@@ -1,3 +1,4 @@
+#!/bin/bash
 DIRECTORY=~/.config/alacritty
 if [ -d $DIRECTORY ]
 then
