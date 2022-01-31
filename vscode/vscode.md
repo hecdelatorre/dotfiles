@@ -38,4 +38,5 @@ code --install-extension OvO.konng
 code --install-extension PKief.material-icon-theme
 code --install-extension rangav.vscode-thunder-client
 code --install-extension TabNine.tabnine-vscode
+code --install-extension quandinh.onehalf-dark
 ```
