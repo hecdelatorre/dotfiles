@@ -1,8 +1,3 @@
-# Improve repository download
-```sh
-echo 'fastesmirror=1' | sudo tee -a /etc/dnf/dnf.conf
-echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf
-```
 # Check updates
 ```sh
 sudo dnf check-update
@@ -139,6 +134,16 @@ sudo systemctl start mongod.service && sudo systemctl is-active mongod.service
 ## Enable service
 ```sh
 sudo systemctl enable mongod.service && sudo systemctl is-enabled mongod.service
+```
+# Improve repository download
+```sh
+echo 'fastesmirror=1' | sudo tee -a /etc/dnf/dnf.conf
+echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf
+echo 'installonly_limit=2' | sudo tee -a /etc/dnf/dnf.conf
+```
+# Remove old kernel´s
+```sh
+dnf remove $(dnf repoquery --installonly --latest-limit=-2 -q)
 ```
 # Install most of the above software with one instruction
 ```sh
