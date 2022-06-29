@@ -13,4 +13,5 @@ echo "[user]                                                                    
 [github]
         user = UserName" > .gitcon && mv -f .gitcon ~/.gitconfig
 cat ~/.gitconfig
+echo 'Please edit your file with your parameters -> # nano ~/.gitconfig'
 
