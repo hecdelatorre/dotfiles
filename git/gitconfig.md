@@ -25,5 +25,5 @@ ssh -T git@github.com
 # Copy .gitconfig to user directory
 
 ```sh
-sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/git/git.sh)"
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/git/git.sh)"
 ```

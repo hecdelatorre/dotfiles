@@ -40,6 +40,12 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fed
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/MongoDB.sh)"
 ```
 
+### Copy .gitconfig to user directory
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/git/git.sh)"
+```
+
 ## My setup for:
 
 * [kitty](https://github.com/kovidgoyal/kitty) 

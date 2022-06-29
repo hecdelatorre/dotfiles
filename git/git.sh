@@ -1,3 +1,4 @@
+#!/bin/bash
 echo 'Copy configuration'
 echo "[user]                                                                                                                                                    main
         name = Name
@@ -10,6 +11,6 @@ echo "[user]                                                                    
 [core]
         editor = nvim
 [github]
-        user = UserName" > .gitconfig && mv -vf .gitconfig ~
+        user = UserName" > .gitcon && mv -f .gitcon ~/.gitconfig
 cat ~/.gitconfig
 
