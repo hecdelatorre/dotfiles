@@ -1,9 +1,47 @@
 # My settings
 
-[![Screenshot-at-2021-06-19-23-25-03.png](https://i.postimg.cc/kXh75TQx/Screenshot-at-2021-06-19-23-25-03.png)](https://postimg.cc/w7JCfcbv)
+[<img src="https://i.postimg.cc/kXh75TQx/Screenshot-at-2021-06-19-23-25-03.png" title="" alt="Screenshot-at-2021-06-19-23-25-03.png" width="300">](https://postimg.cc/w7JCfcbv) [<img src="https://i.postimg.cc/N0BCvcKb/Screenshot-at-2021-06-19-23-33-25.png" title="" alt="Screenshot-at-2021-06-19-23-33-25.png" width="300">](https://postimg.cc/5XKS8DqF)
 
-[![Screenshot-at-2021-06-19-23-33-25.png](https://i.postimg.cc/N0BCvcKb/Screenshot-at-2021-06-19-23-33-25.png)](https://postimg.cc/5XKS8DqF)
-## My setup for: 
+## Scripts
+
+### Arch
+
+**Installation of packages**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/arch.sh)"
+```
+
+### Debian
+
+**Installation of packages**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Debian/debian.sh)"
+```
+
+### Fedora
+
+**Updating the system**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/update.sh)"
+```
+
+  **Installation of packages**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/fedora.sh)"
+```
+
+**MongoDB Installation**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/MongoDB.sh)"
+```
+
+## My setup for:
+
 * [kitty](https://github.com/kovidgoyal/kitty) 
 * [alacritty](https://github.com/alacritty/alacritty) 
 * [Artix](https://artixlinux.org/)
@@ -15,15 +53,18 @@
 * [zsh](https://ohmyz.sh/)
 
 ## My favorite fonts
+
 * [FiraCode](https://github.com/tonsky/FiraCode)
 * [Menlo for Powerline](https://github.com/abertsch/Menlo-for-Powerline.git)
 * [SF Mono Font](https://github.com/supercomputra/SF-Mono-Font.git)
 * [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 ## Themes for terminal
+
 * [Gogh](https://github.com/Mayccoll/Gogh.git)
 
 ## My themes favourites
+
 * [Numix Project](https://github.com/numixproject)
 
 [![logoN1-w.png](https://i.postimg.cc/bvwkKP8Y/logoN1-w.png)](https://github.com/Hec98)
