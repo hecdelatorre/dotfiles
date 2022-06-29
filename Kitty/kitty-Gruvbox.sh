@@ -1,6 +1,11 @@
 #!/bin/bash
 curl -fsSLo .kitty.conf https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Kitty/Themes/Gruvbox/kitty.conf
 DIRECTORY=~/.config/kitty
+CONFIG=~/.config
+if ! [ -d $CONFIG ]
+then
+	mkdir $CONFIG
+fi
 if [ -d $DIRECTORY ]
 then
 	echo -e "Remove kitty"
