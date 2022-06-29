@@ -1,6 +1,6 @@
 # My settings
 
-[<img src="https://i.postimg.cc/kXh75TQx/Screenshot-at-2021-06-19-23-25-03.png" title="" alt="Screenshot-at-2021-06-19-23-25-03.png" width="300">](https://postimg.cc/w7JCfcbv) [<img src="https://i.postimg.cc/N0BCvcKb/Screenshot-at-2021-06-19-23-33-25.png" title="" alt="Screenshot-at-2021-06-19-23-33-25.png" width="300">](https://postimg.cc/5XKS8DqF)
+[<img src="https://i.postimg.cc/kXh75TQx/Screenshot-at-2021-06-19-23-25-03.png" title="" alt="Screenshot-at-2021-06-19-23-25-03.png" width="410">](https://postimg.cc/w7JCfcbv) [<img src="https://i.postimg.cc/N0BCvcKb/Screenshot-at-2021-06-19-23-33-25.png" title="" alt="Screenshot-at-2021-06-19-23-33-25.png" width="410">](https://postimg.cc/5XKS8DqF)
 
 ## Scripts
 
