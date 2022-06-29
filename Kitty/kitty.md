@@ -1,5 +1,7 @@
 # Kitty Themes
 
+***[Rubik](https://fonts.google.com/specimen/Rubik) typeface is necessary***
+
 **Copy Kibble theme**
 
 ```sh
