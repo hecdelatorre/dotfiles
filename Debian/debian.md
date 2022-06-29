@@ -71,3 +71,7 @@ sudo apt install maxima
 ```sh
 sudo apt install wxmaxima
 ```
+# Installation script
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Debian/debian.sh)"
+```

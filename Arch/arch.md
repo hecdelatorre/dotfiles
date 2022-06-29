@@ -92,5 +92,5 @@ sudo systemctl enable reflector.service && sudo systemctl is-enabled reflector.s
 ```
 # Installation script
 ```sh
-sudo sh -c "$(curl -fsSL https://gitlab.com/Hec98/dotfiles/-/raw/main/Arch/arch.sh)"
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/arch.sh)"
 ```

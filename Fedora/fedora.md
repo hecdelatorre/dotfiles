@@ -6,10 +6,10 @@ sudo dnf check-update
 sudo dnf upgrade
 ```
 ```sh
-sh -c "$(curl -fsSL https://gitlab.com/Hec98/dotfiles/-/raw/main/Fedora/update.sh)"
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/update.sh)"
 ```
 ```sh
-sh -c "$(curl -fsSL https://gitlab.com/Hec98/dotfiles/-/raw/main/Fedora/fedora.sh)"
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/fedora.sh)"
 ```
 # Add more repositories
 ```sh
