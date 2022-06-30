@@ -56,6 +56,20 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Kitty/ki
 sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Kitty/kitty-Gruvbox.sh)"
 ```
 
+### Neovim
+
+**Copy onehalfdark theme**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Neovim/install-onehalfdark.sh)"
+```
+
+**Copy Gruvbox theme**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Neovim/install-Gruvbox.sh)"
+```
+
 ### Copy .gitconfig to user directory
 
 ```sh
