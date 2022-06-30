@@ -81,15 +81,19 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/git/git.
 * [kitty](https://github.com/kovidgoyal/kitty) 
 * [alacritty](https://github.com/alacritty/alacritty) 
 * [Artix](https://artixlinux.org/)
+* [Arch](https://archlinux.org/)
 * [Debian](https://www.debian.org/)
 * [Fedora](https://getfedora.org/)
 * [Neovim](https://neovim.io/)
+* [Git](https://git-scm.com/)
 * [vscode](https://code.visualstudio.com/)
 * [rofi](https://github.com/davatorium/rofi)
 * [zsh](https://ohmyz.sh/)
 
 ## My favorite fonts
 
+* [Rubik](https://fonts.google.com/specimen/Rubik)
+* [Roboto](https://fonts.google.com/specimen/Roboto)
 * [FiraCode](https://github.com/tonsky/FiraCode)
 * [Menlo for Powerline](https://github.com/abertsch/Menlo-for-Powerline.git)
 * [SF Mono Font](https://github.com/supercomputra/SF-Mono-Font.git)
