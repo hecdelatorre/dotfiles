@@ -12,6 +12,30 @@
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/arch.sh)"
 ```
 
+ **Installation of linux zen**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-linux-zen.sh)"
+```
+
+**Installation of yay**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-yay.sh)"
+```
+
+**Installation of paru**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-paru.sh)"
+```
+
+**Installation of vscode**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-vscode.sh)"
+```
+
 ### Debian
 
 **Installation of packages**
@@ -80,7 +104,6 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/git/git.
 
 * [kitty](https://github.com/kovidgoyal/kitty) 
 * [alacritty](https://github.com/alacritty/alacritty) 
-* [Artix](https://artixlinux.org/)
 * [Arch](https://archlinux.org/)
 * [Debian](https://www.debian.org/)
 * [Fedora](https://getfedora.org/)
