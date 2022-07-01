@@ -8,7 +8,7 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 ### Preferred theme installation
 * [Common](https://github.com/jackharrisonsherlock/common)
 ```
-wget -O $ZSH_CUSTOM/themes/common.zsh-theme https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme
+curl -fsSLo ~/.oh-my-zsh/custom/themes/common.zsh-theme https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme
 ```
 Preferred colors for the Common theme on the path ``~/.oh-my-zsh/custom/themes/common.zsh-theme``
 ```
@@ -24,4 +24,3 @@ COMMON_COLORS_GIT_STATUS_UNSTAGED=yellow
 COMMON_COLORS_GIT_PROMPT_SHA=green
 COMMON_COLORS_BG_JOBS=yellow
 ```
-
