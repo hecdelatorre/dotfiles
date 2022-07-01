@@ -58,10 +58,22 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fed
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/fedora.sh)"
 ```
 
-**MongoDB Installation**
+** [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-red-hat/) Installation**
 
 ```sh
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/MongoDB.sh)"
+```
+
+ **Kernel [Xanmod](https://copr.fedorainfracloud.org/coprs/rmnscnce/kernel-xanmod/) lts Installation**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/install-kernel-xanmod-lts.sh)"
+```
+
+**Kernel [Xanmod](https://copr.fedorainfracloud.org/coprs/rmnscnce/kernel-xanmod/) edge Installation**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/install-kernel-xanmod-edge.sh)"
 ```
 
 ### Kitty Themes
