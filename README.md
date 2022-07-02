@@ -38,10 +38,28 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/ins
 
 ### Debian
 
-**Installation of packages**
+**Update system**
 
 ```sh
-sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Debian/debian.sh)"
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Debian/upgrade.sh)"
+```
+
+**Package installation**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Debian/install-packages.sh)"
+```
+
+**Kernel [Xanmod](https://xanmod.org/) Installation**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Debian/install-linux-xanmod.sh)"
+```
+
+**Kernel [Xanmod](https://xanmod.org/) lts Installation**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Debian/install-linux-xanmod-lts.sh)"
 ```
 
 ### Fedora
