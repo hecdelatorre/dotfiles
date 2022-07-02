@@ -58,7 +58,7 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fed
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/fedora.sh)"
 ```
 
-** [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-red-hat/) Installation**
+**[MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-red-hat/) Installation**
 
 ```sh
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/MongoDB.sh)"
