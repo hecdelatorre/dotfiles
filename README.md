@@ -1,6 +1,8 @@
 # My settings
 
-[<img title="" src="https://i.postimg.cc/kXh75TQx/Screenshot-at-2021-06-19-23-25-03.png" alt="Screenshot-at-2021-06-19-23-25-03.png" width="410" data-align="center">](https://postimg.cc/w7JCfcbv) [<img title="" src="https://i.postimg.cc/N0BCvcKb/Screenshot-at-2021-06-19-23-33-25.png" alt="Screenshot-at-2021-06-19-23-33-25.png" width="410" data-align="center">](https://postimg.cc/5XKS8DqF)
+[<img src="https://i.postimg.cc/4y2HVVr2/Screenshot-at-2022-07-02-18-30-49.png" title="" alt="Screenshot-at-2022-07-02-18-30-49.png" width="400">](https://postimg.cc/rRWpL0y5)     [<img src="https://i.postimg.cc/Gtms4qSs/Screenshot-at-2022-07-02-18-34-02.png" title="" alt="Screenshot-at-2022-07-02-18-34-02.png" width="400">](https://postimg.cc/dkg0XmFq)
+
+[<img src="https://i.postimg.cc/MZ9QCJv0/Screenshot-at-2022-07-02-18-29-38.png" title="" alt="Screenshot-at-2022-07-02-18-29-38.png" width="400">](https://postimg.cc/Rqnht81q)     [<img src="https://i.postimg.cc/Fs1LmCLM/Screenshot-at-2022-07-02-18-30-02.png" title="" alt="Screenshot-at-2022-07-02-18-30-02.png" width="400">](https://postimg.cc/cryHBmTh)     
 
 ## Scripts
 
