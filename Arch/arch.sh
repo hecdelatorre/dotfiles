@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo pacman -Syu --noconfirm
-sudo pacman -S base-devel git kitty zsh smplayer gnome-disk-utility openvpn wget smbnetfs gvfs-smb ntp audacious unace p7zip unrar lzip lhasa arj sharutils lzop cabextract deluge-gtk engrampa xclip pulseaudio rofi python3 python-pip tk nodejs-lts-gallium npm neovim ttf-fira-code ttf-fira-mono ttf-fira-sans adobe-source-code-pro-fonts cantarell-fonts noto-fonts ttf-cascadia-code ttf-font-awesome ttf-ubuntu-font-family ttf-roboto --noconfirm --needed
+sudo pacman -Sy
+sudo pacman -S adobe-source-code-pro-fonts arj audacious base-devel cabextract cantarell-fonts curl deluge-gtk engrampa git gnome-disk-utility gvfs-smb kitty lhasa lzip lzop neovim nodejs-lts-gallium noto-fonts npm ntp openvpn p7zip pulseaudio python-pip python3 rofi sharutils smbnetfs smplayer tk ttf-cascadia-code ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-awesome ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family unace unrar wget xclip zsh --noconfirm --needed
