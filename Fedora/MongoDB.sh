@@ -1,11 +1,7 @@
 #!/bin/bash
 echo -e '\n Add repository\n'
-echo '[mongodb-org-5.0]
-name=MongoDB Repository
-baseurl=https://repo.mongodb.org/yum/redhat/8Server/mongodb-org/5.0/x86_64/
-gpgcheck=1
-enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc' > mongodb-org-5.0.repo && sudo mv -f mongodb-org-5.0.repo /etc/yum.repos.d/
+curl -fsSLo .mongodb-org-5.0.repo https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/mongodb-org-5.0.repo
+sudo mv -f .mongodb-org-5.0.repo /etc/yum.repos.d/mongodb-org-5.0.repo
 cat /etc/yum.repos.d/mongodb-org-5.0.repo
 echo -e '\n Installation\n'
 sudo dnf in mongodb-org-server mongodb-org-shell mongodb-mongosh -y
