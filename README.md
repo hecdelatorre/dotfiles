@@ -182,4 +182,4 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/roc
 
 * [Numix Project](https://github.com/numixproject)
 
-[![logoN1-w.png](https://i.postimg.cc/bvwkKP8Y/logoN1-w.png)](https://github.com/hecdelatorre)
+[<img src="https://i.postimg.cc/hj94jM8M/LogoO-GN.png" title="" alt="logoN1-w.png" width="300">](https://gitlab.com/hecdelatorre)[<img src="https://i.postimg.cc/zBmX84hV/LogoO-GA.png" title="" alt="logoN1-w.png" width="300">](https://github.com/hecdelatorre)
