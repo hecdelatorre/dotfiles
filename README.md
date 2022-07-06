@@ -17,7 +17,7 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arc
 **Reflector for faster repositories**
 
 ```sh
-sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/reflector.sh)"
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/reflector.sh)"
 ```
 
 **Installation of linux zen**
