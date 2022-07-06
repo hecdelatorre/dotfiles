@@ -1,3 +1,41 @@
+# Scripts
+
+**Package installation**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/arch.sh)"
+```
+
+**Reflector for faster repositories**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/reflector.sh)"
+```
+
+**Installation of linux zen**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-linux-zen.sh)"
+```
+
+**Installation of yay**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-yay.sh)"
+```
+
+**Installation of paru**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-paru.sh)"
+```
+
+**Installation of vscode**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-vscode.sh)"
+```
+
 # Update system
 
 ```sh
@@ -122,36 +160,4 @@ RequiredBy=multi-user.target' > reflector.service && sudo mv -vf reflector.servi
 
 ```sh
 sudo systemctl enable reflector.service && sudo systemctl is-enabled reflector.service
-```
-
-# Scripts
-
-**Package installation**
-
-```sh
-sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/arch.sh)"
-```
-
-**Installation of linux zen**
-
-```sh
-sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-linux-zen.sh)"
-```
-
-**Installation of yay**
-
-```sh
-sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-yay.sh)"
-```
-
-**Installation of paru**
-
-```sh
-sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-paru.sh)"
-```
-
-**Installation of vscode**
-
-```sh
-sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-vscode.sh)"
 ```

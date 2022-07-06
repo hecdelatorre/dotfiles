@@ -14,7 +14,13 @@
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/arch.sh)"
 ```
 
- **Installation of linux zen**
+**Reflector for faster repositories**
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/reflector.sh)"
+```
+
+**Installation of linux zen**
 
 ```sh
 sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-linux-zen.sh)"
@@ -110,6 +116,12 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Kitty/ki
 
 ```sh
 sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Kitty/kitty-Gruvbox.sh)"
+```
+
+### Alacritty
+
+```sh
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Alacritty/install.sh)"
 ```
 
 ### Neovim
