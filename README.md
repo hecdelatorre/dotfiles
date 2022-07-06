@@ -1,8 +1,8 @@
 # My settings
 
-[<img src="https://i.postimg.cc/4y2HVVr2/Screenshot-at-2022-07-02-18-30-49.png" title="" alt="Screenshot-at-2022-07-02-18-30-49.png" width="400">](https://postimg.cc/rRWpL0y5)[<img src="https://i.postimg.cc/Gtms4qSs/Screenshot-at-2022-07-02-18-34-02.png" title="" alt="Screenshot-at-2022-07-02-18-34-02.png" width="400">](https://postimg.cc/dkg0XmFq)
+[<img src="https://i.postimg.cc/4y2HVVr2/Screenshot-at-2022-07-02-18-30-49.png" title="" alt="Screenshot-at-2022-07-02-18-30-49.png" width="400">](https://postimg.cc/rRWpL0y5)[<img src="https://i.postimg.cc/MZ9QCJv0/Screenshot-at-2022-07-02-18-29-38.png" title="" alt="Screenshot-at-2022-07-02-18-29-38.png" width="400">](https://postimg.cc/Rqnht81q)
 
-[<img src="https://i.postimg.cc/MZ9QCJv0/Screenshot-at-2022-07-02-18-29-38.png" title="" alt="Screenshot-at-2022-07-02-18-29-38.png" width="400">](https://postimg.cc/Rqnht81q)[<img src="https://i.postimg.cc/Fs1LmCLM/Screenshot-at-2022-07-02-18-30-02.png" title="" alt="Screenshot-at-2022-07-02-18-30-02.png" width="400">](https://postimg.cc/cryHBmTh)     
+[<img src="https://i.postimg.cc/Gtms4qSs/Screenshot-at-2022-07-02-18-34-02.png" title="" alt="Screenshot-at-2022-07-02-18-34-02.png" width="400">](https://postimg.cc/dkg0XmFq)[<img src="https://i.postimg.cc/Fs1LmCLM/Screenshot-at-2022-07-02-18-30-02.png" title="" alt="Screenshot-at-2022-07-02-18-30-02.png" width="400">](https://postimg.cc/cryHBmTh)     
 
 ## Scripts
 
@@ -180,4 +180,4 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/roc
 
 * [Numix Project](https://github.com/numixproject)
 
-[![logoN1-w.png](https://i.postimg.cc/bvwkKP8Y/logoN1-w.png)](https://github.com/Hec98)
+[![logoN1-w.png](https://i.postimg.cc/bvwkKP8Y/logoN1-w.png)](https://github.com/hecdelatorre)
