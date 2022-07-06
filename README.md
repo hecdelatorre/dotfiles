@@ -144,6 +144,12 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Neovim/i
 sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/git/git.sh)"
 ```
 
+### Installation of mate in Rocky
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/rocky/mate.sh)"
+```
+
 ## My setup for:
 
 * [kitty](https://github.com/kovidgoyal/kitty) 
