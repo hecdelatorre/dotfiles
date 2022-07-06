@@ -1,8 +1,10 @@
 # My settings
 
-[<img src="https://i.postimg.cc/4y2HVVr2/Screenshot-at-2022-07-02-18-30-49.png" title="" alt="Screenshot-at-2022-07-02-18-30-49.png" width="400">](https://postimg.cc/rRWpL0y5)[<img src="https://i.postimg.cc/MZ9QCJv0/Screenshot-at-2022-07-02-18-29-38.png" title="" alt="Screenshot-at-2022-07-02-18-29-38.png" width="400">](https://postimg.cc/Rqnht81q)
+[<img src="https://i.postimg.cc/4y2HVVr2/Screenshot-at-2022-07-02-18-30-49.png" title="" alt="Screenshot-at-2022-07-02-18-30-49.png" width="400">](https://postimg.cc/rRWpL0y5)[<img src="https://i.postimg.cc/CxmLDtr9/Screenshot-at-2022-07-05-21-05-54.png" title="" alt="Screenshot-at-2022-07-05-21-05-54.png" width="400">](https://postimg.cc/v4xswPsv)
 
-[<img src="https://i.postimg.cc/Gtms4qSs/Screenshot-at-2022-07-02-18-34-02.png" title="" alt="Screenshot-at-2022-07-02-18-34-02.png" width="400">](https://postimg.cc/dkg0XmFq)[<img src="https://i.postimg.cc/Fs1LmCLM/Screenshot-at-2022-07-02-18-30-02.png" title="" alt="Screenshot-at-2022-07-02-18-30-02.png" width="400">](https://postimg.cc/cryHBmTh)     
+[<img src="https://i.postimg.cc/MZ9QCJv0/Screenshot-at-2022-07-02-18-29-38.png" title="" alt="Screenshot-at-2022-07-02-18-29-38.png" width="400">](https://postimg.cc/Rqnht81q)[<img src="https://i.postimg.cc/Fs1LmCLM/Screenshot-at-2022-07-02-18-30-02.png" title="" alt="Screenshot-at-2022-07-02-18-30-02.png" width="400">](https://postimg.cc/cryHBmTh)     
+
+[<img src="https://i.postimg.cc/Gtms4qSs/Screenshot-at-2022-07-02-18-34-02.png" title="" alt="Screenshot-at-2022-07-02-18-34-02.png" width="800">](https://postimg.cc/dkg0XmFq)
 
 ## Scripts
 
