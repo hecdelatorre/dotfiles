@@ -1,5 +1,6 @@
 #!/bin/bash
 echo -e '\n Add repository\n'
+sudo dnf in curl -y
 curl -fsSLo .mongodb-org-5.0.repo https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/mongodb-org-5.0.repo
 sudo mv -f .mongodb-org-5.0.repo /etc/yum.repos.d/mongodb-org-5.0.repo
 cat /etc/yum.repos.d/mongodb-org-5.0.repo
