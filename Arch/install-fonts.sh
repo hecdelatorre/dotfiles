@@ -6,11 +6,9 @@ git clone https://aur.archlinux.org/montserrat-font.git
 git clone https://aur.archlinux.org/ttf-poppins.git
 git clone https://aur.archlinux.org/ttf-rubik.git 
 git clone https://aur.archlinux.org/ttf-spacemono.git
-git clone https://aur.archlinux.org/nerd-fonts-git.git
 cd atkinson-hyperlegible-fonts && makepkg -si --noconfirm --needed && cd ..
 cd montserrat-font && makepkg -si --noconfirm --needed && cd ..
 cd ttf-poppins && makepkg -si --noconfirm --needed && cd ..
 cd ttf-rubik && makepkg -si --noconfirm --needed && cd ..
 cd ttf-spacemono && makepkg -si --noconfirm --needed && cd ..
-cd nerd-fonts-git && makepkg -si --noconfirm --needed && cd ..
-rm -vrf atkinson-hyperlegible-fonts montserrat-font nerd-fonts-git ttf-poppins ttf-rubik ttf-spacemono
+rm -vrf atkinson-hyperlegible-fonts montserrat-font ttf-poppins ttf-rubik ttf-spacemono
