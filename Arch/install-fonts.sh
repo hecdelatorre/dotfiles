@@ -10,7 +10,7 @@ git clone https://aur.archlinux.org/ttf-spacemono.git
 git clone https://aur.archlinux.org/nerd-fonts-git.git
 cd atkinson-hyperlegible-fonts && makepkg -si --noconfirm --needed && cd ..
 cd montserrat-font && makepkg -si --noconfirm --needed && cd ..
-cd ttf-ms-win10 && makepkg -si --noconfirm --needed && cd ..
+cd ttf-ms-win11 && makepkg -si --noconfirm --needed && cd ..
 cd ttf-poppins && makepkg -si --noconfirm --needed && cd ..
 cd ttf-rubik && makepkg -si --noconfirm --needed && cd ..
 cd ttf-spacemono && makepkg -si --noconfirm --needed && cd ..
