@@ -6,6 +6,12 @@
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/arch.sh)"
 ```
 
+**Install fonts**
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Arch/install-fonts.sh)"
+```
+
 **Reflector for faster repositories**
 
 ```sh
