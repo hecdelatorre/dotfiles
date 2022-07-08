@@ -22,6 +22,18 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fed
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/fedora.sh)"
 ```
 
+## Installation of dev packages
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/install-dev-apps.sh)"
+```
+
+## Installation of fonts
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/install-fonts.sh)"
+```
+
 ## [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-red-hat/) Installation
 
 ```sh
