@@ -1,0 +1,7 @@
+sudo dnf in python3-cffi xorg-x11-server-source python3-xcffib python3-cairocffi python3-dbus-next
+
+pip install --no-cache-dir cairocffi
+
+https://copr.fedorainfracloud.org/coprs/frostyx/qtile/
+
+sudo dnf in rofi feh picom scrot ranger -y
