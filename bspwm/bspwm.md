@@ -1,4 +1,6 @@
-## Installation
+# bspwm - Initial configuration
+
+**Installation**
 
 * Debian
   
@@ -12,29 +14,38 @@
   sudo dnf in bspwm sxhkd polybar rofi picom feh ranger xclip scrot -y
   ```
 
-## Remove directories if they exist
+**Remove directories if they exist**
 
 ```shell
 rm -vrf ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar
 ```
 
-## Create new directories
+**Create new directories**
 
 ```shell
-mkdir ~/.config/bspwm
-mkdir ~/.config/sxhkd
-mkdir ~/.config/polybar
+mkdir ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar
 ```
 
-## Copy sample configuration files
+**Copy sample configuration files**
 
 ```shell
 cp -vf /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
 cp -vf /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd
+```
+
+**In Fedora**
+
+```shell
 cp -vf /usr/share/doc/polybar/examples/config.ini ~/.config/polybar
 ```
 
-## Create launch.sh file
+**In Debian**
+
+```shell
+cp -vf /usr/share/doc/polybar/config ~/.config/polybar
+```
+
+**Create launch.sh file**
 
 ```shell
 echo '#!/usr/bin/env bash
@@ -47,14 +58,14 @@ polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
 # polybar bar2 2>&1 | tee -a /tmp/polybar2.log & disown' > ~/.config/polybar/launch.sh
 ```
 
-## Assign execution permissions
+**Assign execution permissions**
 
 ```shell
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/launch.sh
 ```
 
-## Add startup instructions
+**Add startup instructions**
 
 ```shell
 echo '# Auto start' | tee -a ~/.config/bspwm/bspwmrc
@@ -63,30 +74,10 @@ echo 'picom --no-vsync &' | tee -a ~/.config/bspwm/bspwmrc
 echo '$HOME/.config/polybar/launch.sh' | tee -a ~/.config/bspwm/bspwmrc
 ```
 
-## Configure the xinitrc file
+**Configure the xinitrc file**
 
 ```shell
 cp -vf /etc/X11/xinit/xinitrc ~/.xinitrc
 echo 'sxhkd &' | tee -a ~/.xinitrc
 echo 'exec bspwm' | tee -a ~/.xinitrc
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
