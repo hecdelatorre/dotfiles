@@ -170,6 +170,12 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/git/git.
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/rocky/mate.sh)"
 ```
 
+### xterm - Config
+
+```shell
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/xterm/xterm.sh)"
+```
+
 ## My setup for:
 
 * [kitty](https://github.com/kovidgoyal/kitty) 

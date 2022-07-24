@@ -1,3 +1,4 @@
+echo 'IBM Plex typeface required'
 echo '! Adjusting the font
 xterm*faceName: IBM Plex Mono
 xterm*faceSize: 11
@@ -37,3 +38,4 @@ xterm*vt100.translations: #override \n\
  Shift <Key>Home: scroll-forw(10000000000) \n\
  Shift <Key>End: scroll-back(10000000000)' > ~/.Xresources
 xrdb -merge ~/.Xresources
+echo 'xterm is configured'
