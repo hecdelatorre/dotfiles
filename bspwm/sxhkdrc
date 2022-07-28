@@ -9,6 +9,8 @@ super + Return
 # program launcher
 alt + a
 	rofi -show run -font "Rubik 12" -i -theme glue_pro_blue -show-icons
+alt + Tab
+	rofi -show window -font "Rubik 12" -i -theme glue_pro_blue -show-icons	
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -119,3 +121,9 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# Screentshot
+super + Print
+	scrot 'Fedora-%Y-%m-%d-%H-%s_screenshot.png' -s -e 'xclip -selection clipboard -t image/png -i $f && rm *.png'
+super + shift + Print
+	scrot 'Fedora-%Y-%m-%d-%H-%s_screenshot.png' -s -e 'mv *.png ~/Pictures/'
