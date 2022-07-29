@@ -176,6 +176,12 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/roc
 sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/xterm/xterm.sh)"
 ```
 
+### Copy my settings - bspwm
+
+```shell
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/bspwm/install-bspwm.sh)"
+```
+
 ## My setup for:
 
 * [kitty](https://github.com/kovidgoyal/kitty) 

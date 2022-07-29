@@ -81,3 +81,9 @@ cp -vf /etc/X11/xinit/xinitrc ~/.xinitrc
 echo 'sxhkd &' | tee -a ~/.xinitrc
 echo 'exec bspwm' | tee -a ~/.xinitrc
 ```
+
+# Copy my settings - bspwm
+
+```shell
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/bspwm/install-bspwm.sh)"
+```
