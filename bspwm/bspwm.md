@@ -2,6 +2,12 @@
 
 **Installation**
 
+* Fedora
+  
+  ```shell
+  sudo pacman -S bspwm sxhkd polybar rofi picom feh ranger xclip scrot --noconfirm --needed
+  ```
+
 * Debian
   
   ```shell
@@ -17,13 +23,13 @@
 **Remove directories if they exist**
 
 ```shell
-rm -vrf ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar
+rm -vrf ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar ~/.config/picom
 ```
 
 **Create new directories**
 
 ```shell
-mkdir ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar
+mkdir ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar ~/.config/picom
 ```
 
 **Copy sample configuration files**
@@ -31,9 +37,10 @@ mkdir ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar
 ```shell
 cp -vf /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm
 cp -vf /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd
+cp -vf /usr/share/doc/picom/picom.sample.conf ~/.config/picom/picom.conf
 ```
 
-**In Fedora**
+**In Arch and Fedora**
 
 ```shell
 cp -vf /usr/share/doc/polybar/examples/config.ini ~/.config/polybar
