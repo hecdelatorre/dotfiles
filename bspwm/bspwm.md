@@ -2,7 +2,7 @@
 
 **Installation**
 
-* Fedora
+* Arch
   
   ```shell
   sudo pacman -S bspwm sxhkd polybar rofi picom feh ranger xclip scrot --noconfirm --needed
