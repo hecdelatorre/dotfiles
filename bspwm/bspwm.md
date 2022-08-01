@@ -5,19 +5,19 @@
 * Arch
   
   ```shell
-  sudo pacman -S bspwm sxhkd polybar rofi picom feh ranger xclip scrot --noconfirm --needed
+  sudo pacman -S bspwm sxhkd polybar rofi picom feh ranger xclip scrot xautolock slock --noconfirm --needed
   ```
 
 * Debian
   
   ```shell
-  sudo apt install bspwm sxhkd polybar rofi picom feh ranger xclip scrot -y
+  sudo apt install bspwm sxhkd polybar rofi picom feh ranger xclip scrot xautolock slock -y
   ```
 
 * Fedora
   
   ```shell
-  sudo dnf in bspwm sxhkd polybar rofi picom feh ranger xclip scrot -y
+  sudo dnf in bspwm sxhkd polybar rofi picom feh ranger xclip scrot xautolock slock -y
   ```
 
 **Remove directories if they exist**
