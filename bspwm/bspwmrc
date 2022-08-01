@@ -24,4 +24,5 @@ bspc rule -a Screenkey manage=off
 feh --bg-fill ~/Pictures/wallpaper.jpg
 # nm-applet &
 picom --no-vsync &
+xautolock -time 10 -locker slock &
 $HOME/.config/polybar/launch.sh
