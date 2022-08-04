@@ -65,3 +65,7 @@ let g:coc_global_extensions = [
 "\    'coc-git',
 "\    'coc-intelephense',
 " Install extensions -> https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
+
+" Rust
+let g:rustfmt_autosave = 1
+let g:rust_clip_command = 'xclip -selection clipboard'

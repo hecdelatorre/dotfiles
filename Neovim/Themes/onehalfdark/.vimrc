@@ -38,6 +38,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'sheerun/vim-polyglot'
 Plug 'yggdroot/indentline'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 "Theme
