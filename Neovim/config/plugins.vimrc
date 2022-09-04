@@ -45,7 +45,7 @@ let g:coc_global_extensions = [
 \    'coc-pydocstring',
 \    'coc-pyright',
 \    'coc-python',
-\    'coc-rls',
+"\    'coc-rls',
 \    'coc-rome',
 \    'coc-rust-analyzer',
 \    'coc-sh',
