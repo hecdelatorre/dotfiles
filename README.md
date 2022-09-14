@@ -130,7 +130,7 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fed
 
 ### Kitty Themes
 
-***[Rubik](https://fonts.google.com/specimen/Rubik) typeface is necessary***
+***[FiraCode](https://github.com/tonsky/FiraCode) typeface is necessary***
 
 **Copy Kibble theme**
 
