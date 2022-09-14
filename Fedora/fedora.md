@@ -40,6 +40,12 @@ sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fed
 sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/MongoDB.sh)"
 ```
 
+## Kernel [liquorix](https://copr.fedorainfracloud.org/coprs/rmnscnce/kernel-lqx/) Installation
+
+```sh
+sudo sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/dotfiles/-/raw/main/Fedora/install-kernel-lxq.sh)"
+```
+
 ## Kernel [Xanmod](https://copr.fedorainfracloud.org/coprs/rmnscnce/kernel-xanmod/) lts Installation
 
 ```sh
